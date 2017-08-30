@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "nscroll1",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.7.0",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "574d64f842a3e1f6190a78f5cf9fcda95f285c18",
+    "jhiPrefix": "jhi"
+  }
+}
